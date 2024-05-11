@@ -1,0 +1,159 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #142A31;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.container
+{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.header_iner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.user-nav_link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background: #FDB0AB;
+    width: 285px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#142A31;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(253, 176, 171, 0.5);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.user-nav_link:hover, .user-nav_link:focus, .user-nav_link:active{
+    box-shadow: 0 0 20px rgba(253, 176, 171);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.menu{
+    margin-right: auto;
+}
+
+.logo{
+    margin-right: 45px;
+}
+
+.user-nav{
+    margin-right: auto;
+    margin-left: 240px;
+}
+
+.menu_list
+{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #183e49;
+}
+
+.header_title
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 26px;
+    color: #142A31;
+}
+
+.top{
+    display: flex;
+    background-color: #F3F8F3;
+    margin-top: 17px;
+}
+
+.section_iner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 68px;
+}
+
+.section_title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+
+
+.section_rigth_img{
+    margin-left: auto;
+}
+
+.center1{
+    display: flex;
+    background-color: #F9FAFB;
+}
+
+.center2{
+    display: flex;
+    background-color: #FFFF;
+}
+
+.center3{
+    display: flex;
+    background-color: #FFFF;
+}
+
+.center4{
+    display: flex;
+    background-color: #FFFF;
+}
+
+.center5{
+    display: flex;
+    background-color: #FFFF;
+}
+
+.center6{
+    display: flex;
+    background-color: #FFFF;
+}
+
+.center7{
+    display: flex;
+    background-color: #F3F8F3;
+}
